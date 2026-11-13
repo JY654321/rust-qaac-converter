@@ -1,0 +1,4 @@
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "process"] }
+futures = "0.3"
+encoding_rs = "0.8"   # 新增
