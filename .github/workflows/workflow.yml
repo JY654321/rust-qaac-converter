@@ -25,7 +25,7 @@ jobs:
       - name: Build
         env:
           RUSTFLAGS: "-C target-cpu=tigerlake -C target-feature=+crt-static"
-        run: cargo build --release --locked --target $env:TARGET
+        run: cargo build --release --target $env:TARGET
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
