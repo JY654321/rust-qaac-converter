@@ -1,4 +1,9 @@
+[package]
+name = "flac2m4a"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "process"] }
 futures = "0.3"
-encoding_rs = "0.8"   # 新增
+encoding_rs = "0.8"
